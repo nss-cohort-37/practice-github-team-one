@@ -9,7 +9,6 @@ const addMouseOverEventListeners = () => {
             }
         )
 
-
         card.addEventListener("mouseout", theMouseOutEvent => {
             card.classList.remove("highlightFish")
         })
